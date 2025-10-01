@@ -7,7 +7,7 @@ CREATE OR REPLACE TABLE TEST.agent_details (
     recordinsertdate   DATE
 );
 
-INSERT INTO TEST.agent_details (agent_name, extension, team, manager_name, manager_id, recordinsertdate)
+INSERT INTO TEST.agent_details (agent_name, extension, team, manager_name, manager_id)
 SELECT
     a.agent_name,
     a.extension,
