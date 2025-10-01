@@ -1,1 +1,2 @@
-# sktest
+Requirements:
+Create a table in test schema in snowflake and that table should have agent name, extension,team, manager name, manager id and recordinsertdate columns. Pick agent name, extension,team,manager name from table A and manager name, manager id from table B. Join Table A and table B based on manager name as both the columns have manager name column. recordinsertdate should be current date.
